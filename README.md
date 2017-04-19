@@ -2,7 +2,7 @@
 Start learning python and hopefully will use it for Machine Learning and Deep Learning in the future.
 
 - [x] Day 1: Basics [time=Mon, Apr 17, 2017]
-- [ ] Days 2&3: Lists, Dictionaries, Tuples and Loops
+- [x] Days 2&3: Lists, Dictionaries, Tuples and Loops [time=Wed, Apr 19, 2017]
 - [ ] Day 4: Conditionals
 - [ ] Day 5: Functions
 - [ ] Day 6: Advanced Strings
@@ -76,6 +76,25 @@ tup = (('tic', 'tic'), ('tac', 'tac'))
 tup += (('toe', 'toe'),)
 ```
 > (('tic', 'tic'), ('tac', 'tac'), **('toe', 'toe')**)
+
+# Python Day 3: For and While Loops
+Use : to define, and indent the loop content
+Leave a empty line is state the end of loop (Other kind of indention will do)
+
+### For Loops
+```Python
+bag = [10, 11, 12, 13]
+for item in bag:
+    print(item)
+```
+
+### While Loops
+```Python
+i = 1
+while i < 11:
+    print(i)
+    i = i + 1
+```
 
 # References
 Course [(30 days of python) Udemy](https://www.udemy.com/30-days-of-python)
