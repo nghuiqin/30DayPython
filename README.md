@@ -78,8 +78,8 @@ tup += (('toe', 'toe'),)
 > (('tic', 'tic'), ('tac', 'tac'), **('toe', 'toe')**)
 
 # Python Day 3: For and While Loops
-Use : to define, and indent the loop content
-Leave a empty line is state the end of loop (Other kind of indention will do)
+Use : to start the loop, and indention will be loop scope
+Leave a empty line to state the end of loop (Other kind of indention will do)
 
 ### For Loops
 ```Python
