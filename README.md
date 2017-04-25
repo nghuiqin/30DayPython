@@ -3,7 +3,7 @@ Start learning python and hopefully will use it for Machine Learning and Deep Le
 
 - [x] Day 1: Basics [time=Mon, Apr 17, 2017]
 - [x] Days 2&3: Lists, Dictionaries, Tuples and Loops [time=Wed, Apr 19, 2017]
-- [ ] Day 4: Conditionals
+- [x] Day 4: Conditionals [time=Tue, Apr 25, 2017]
 - [ ] Day 5: Functions
 - [ ] Day 6: Advanced Strings
 - [ ] Days 7-9: Classes
@@ -94,6 +94,26 @@ i = 1
 while i < 11:
     print(i)
     i = i + 1
+```
+
+# Python Day 4: Conditionals
+Boolean value
+```Python
+obj_a = True
+obj_b = False
+
+obj_a == obj_b //False
+obj_a is obj_b //False
+not obj_a is obj_b //True
+```
+
+### Using Conditional Expressions
+```Python
+list_d = ['Justin', 123, 'Apple', 'Food']
+for item in list_d:
+    if isinstance(item, str):
+        print(item)
+
 ```
 
 # References
