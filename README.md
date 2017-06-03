@@ -116,6 +116,29 @@ for item in list_d:
 
 ```
 
+## Python Day 5: Functions
+using sort or sorted function
+```Python
+str_items = ['aaa', 'Abc', 'AD', 'ED', 'JM']
+str_items.sort()
+str_items.sort(key=str.lower)
+str_items.sort(key=str.lower, reverse=True)
+new_items = sorted(sort_items)
+new_itmes = sorted(str_items, key=str.lower, reverse=True)
+```
+
+### Others
+note: There is different between Python2 and Python3
+```Python
+int_items = [1313, 21938.3, 12.23, 1314]
+sum(int_items)
+len(int_items)
+total = sum(int_items)
+average = sum(int_items)/len(int_items)
+
+average = 1114124/len(int_items)
+#Python2 = 278531 <-> Python3 = 278531.0
+
 # References
 Course [(30 days of python) Udemy](https://www.udemy.com/30-days-of-python)
 Python3 [Python Installation](https://gist.github.com/uranusjr/6fa2770a8c8651192e93)
